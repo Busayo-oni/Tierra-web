@@ -4,7 +4,7 @@ const triggerButton = document.getElementById('trigger');
 const firstSetItems = document.querySelectorAll('.visible');
 const secondSetItems = document.querySelectorAll('.hidden');
 
-// Add event listener for the menu button to toggle the active class
+
 menuBtn.addEventListener('click', () => {
     sideMenu.classList.toggle('active');
 });
